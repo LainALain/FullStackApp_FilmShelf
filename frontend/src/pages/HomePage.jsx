@@ -9,14 +9,14 @@ export default function HomePage() {
   const [loading, setLoading] = useState(false);
 
   const defaultTitles = [
-    'Citizen Kane',
-    'The Godfather',
-    'Casablanca',
-    'Raging Bull',
-    'Singin’ in the Rain',
-    'Gone with the Wind',
-    'Lawrence of Arabia',
-    'Schindler’s List',
+    "The Shawshank Redemption",
+    "The Godfather",
+    "The Dark Knight",
+    "The Godfather Part II",
+    "12 Angry Men",
+    "Schindler's List",
+    "The Lord of the Rings: The Return of the King",
+    "Pulp Fiction"
   ];
 
   const load = async (q) => {

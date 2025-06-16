@@ -15,7 +15,7 @@ export default function MovieCard({ movie, onFavorited }) {
     if (!user) return;
     try {
       await toggleFavorite(movie.imdbID, user.token);
-      if (onFavorited) onFavorited(); // Обновляем профиль
+      if (onFavorited) onFavorited();
     } catch (err) {
       console.error('Error toggling favorite:', err);
     }
